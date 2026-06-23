@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ネパールへの旅 - ヒマラヤのふもとへ</title>
+
+    <style>
+/* 基本スタイル */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ヘッダー */
+header {
+    background-color: #b11226; /* ネパール国旗の赤 */
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ヒーローエリア */
+.hero {
+    background-color: #333;
+    background-image: url("publicdomainq-0013158nsostd.jpg"); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 3px solid #b11226;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* フッター */
+footer {
+    background-color: #1b3d6d; /* ネパール国旗の青 */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+    </style>
+
+</head>
+<body>
+<h1>Jason's page</h1>
+<ul>
+    <li><a href="index.html">プロフィール</a></li>
+    <li><a href="mycountry.html">私の国の紹介</a></li>
+    <li><a href="myportfolio.html">ポートフォーリオ</a></li>
+</ul>
+
+    <header>
+        <div class="container">
+            <h1>Nepal Discovery</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">ネパールについて</a></li>
+                    <li><a href="#places">観光スポット</a></li>
+                    <li><a href="#food">グルメ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>世界最高峰の地、ヒマラヤへ</h2>
+            <p>神々と自然が共存する、神秘の国ネパールの魅力を。 </p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="about">
+            <h2>ネパールについて</h2>
+            <div class="card">
+                <p>ネパールは、北はヒマラヤ山脈、南は豊かな平原に囲まれた多民族・多言語国家です。世界最高峰のエベレストをはじめとする8000m級の山々が連なり、登山家やトレッカーの憧れの地となっています。</p>
+            </div>
+        </section>
+
+        <section id="places">
+            <h2>おすすめの観光スポット</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>カトマンズ</h3>
+                    <p>歴史的な寺院や彫刻が残る「屋根のない博物館」。活気あふれる首都です。</p>
+                </div>
+                <div class="card">
+                    <h3>ポカラ</h3>
+                    <p>美しいフェワ湖とアンナプルナ連峰の絶景を楽しめる、リゾート地です。</p>
+                </div>
+                <div class="card">
+                    <h3>ルンビニ</h3>
+                    <p>仏教の開祖、釈迦（ブッダ）が誕生した聖地として知られています。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="food">
+            <h2>ネパールの味</h2>
+            <div class="card">
+                <h3>ダルバート (Dal Bhat)</h3>
+                <p>ネパールの国民食。豆のスープ（ダル）とご飯（バート）に、野菜のスパイス炒めなどが添えられた定食です。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nepal Discovery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
